@@ -8,9 +8,11 @@ using System.Threading.Tasks;
 
 namespace UIAutomationCSharpProject.Tests
 {
+    [TestClass]
     public class ApiTest
     {
-        public static void Main()
+        [TestMethod]
+        public static void GetOriginsOfInsurance()
         {
             const string word_id = "insurance";
             const string lang_code = "an-gb";

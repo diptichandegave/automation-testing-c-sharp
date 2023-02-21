@@ -8,9 +8,11 @@ using System.Threading.Tasks;
 
 namespace UIAutomationCSharpProject.Tests
 {
+    [TestClass]
     internal class ApiTest1
     {
-        public static void Main()
+        [TestMethod]
+        public static void TranslateEnglishToFrench()
         {
             const string test_word = "test";
             const string source_lang_code = "en";
